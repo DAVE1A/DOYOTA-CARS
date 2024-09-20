@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    /* background-color: rgb(44, 207, 212); */
+    background-color:rgb(41, 5, 74);
+    color: silver;
+    padding: 20px 100px;
+
+}
+span{
+    color: rgb(41, 5, 74);;
+    /* background-color: aqua; */
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+}
+.navlinks ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-family: "Poppins", sans-serif;
+   
+}
+.navlinks ul a{
+    text-decoration: none;
+    color: rgb(136, 135, 135)
+}
+
+.navbtn button{
+    background-color: rgb(41, 5, 74);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 30px;
+    font-family: 'poppins';
+
+}
+.navbtn button:hover{
+    background-color: rgb(69, 144, 144);
+    color: black;
+    padding: 7px 12px;
+    transition: 0.5s;
+}
+.hero{
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.59),
+        rgba(0, 0, 0, 0.59)
+    ),
+    url('bnm.jpg');
+    background-color:rgb(41, 5, 74);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100;
+    height: 150vh;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+.sub-parent{
+    color: rgb(69, 144, 144);
+    text-align: center;
+}
+
+.sub-parent p{
+    color: silver;
+    margin-top: 70px;
+}
+.sub-parent h1{
+    font-size: 120px;
+    /* font-family: "Poppins", sans-serif; ; */
+    font-family: cursive;
+    margin-top: 160px;
+}
+.sub-parent p{
+    font-size: 15px;
+}
+.sub-parent button{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 3px;
+    background-color:rgb(41, 5, 74);
+    color:white ;
+    margin-top: 25px;
+    font-family: 'poppins';
+}
+.span{
+    /* font-size: 40px; */
+    color: white;
+    /* font-family: cursive; */
+} 
+
+.about{
+    height: 100vh;
+    background-color:rgb(41, 5, 74);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.112),
+        rgba(0, 0, 0, 0.122)
+    ),
+    url(more.jpg);
+    color: silver;
+
+}
+
+.about-content h2{
+    font-size: 40px;
+    color: rgb(41, 5, 74);
+    margin-bottom: 20px;
+}
+
+.about-parent{
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+ 
+}
+.about-content button{
+    background-color:rgb(255, 255, 255);
+    color: rgb(47, 6, 80);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 25px;
+    font-family: 'poppins';
+    margin-top: 20px;
+
+}
+button:hover{
+    background-color:rgb(69, 144, 144);
+    color: black;
+    padding: 7px 12px;
+    transition: 0.5s;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    height: 100vh;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.721),
+        rgba(0, 0, 0, 0.721)
+    ),
+    url('bnm.jpg');
+}
+
+.parent-cta{
+  
+    text-align: center;
+    padding: 80px 250px;
+    border-radius: 10px;
+    color: rgb(69, 144, 144);
+
+}
+.parent-cta h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.parent-cta i{
+    font-size: 30px;
+    margin: 0px 10px;
+    color:  rgb(81, 57, 104);
+}
+
+.parent-cta i:hover{
+    font-size: 30px;
+    margin: 0px 10px;
+    color:  white;
+}
+.parent-cta a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.parent-cta .mail{
+    padding-top: 10px;
+}
+
+.parent-cta a:hover{
+    padding-top: 10px;
+    color: rgb(38, 2, 74);
+}
+
+.footer{
+    background-color: rgb(41, 5, 74);;
+    padding: 60px 0px;
+    padding: 100px 0;
+    
+}
+.parent-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1 a{
+    text-decoration: none;
+    color:silver;
+    font-size: 14px;
+}
+.row2 a{
+    text-decoration: none;
+    color: silver;
+    font-size: 14px;
+
+}
+.row3 h3{
+    font-size: 30px;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: silver;
+    padding: 10px;
+}
+
+.insideholder{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.top h1{
+    font-size: 80px;
+    color: silver;
+}
+
+.holder{
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.112),
+        rgba(0, 0, 0, 0.122)
+    ),
+    url(more.jpg);
+    color: silver;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    gap: 15px;
+   
+    background-color: #000a1f;
+   
+}
+
+.container img{
+    width: 15%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.75s;
+
+}
+
+.container img:hover{
+    width: 25%;
+}
